@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  color: #616161;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #FFF !important;
+  border: 0 !important;
+}
+
+nav ul {
+  margin-top: 0.3em !important;
+}
+
+nav a, a:visited {
+  color: #616161;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #F3F3F3;
+  color: #616161;
+}
+
+nav img {
+  height: 28px;
+}
