@@ -1,6 +1,15 @@
+/*Global Styling*/
+
+* {
+  box-sizing: border-box;
+  margin: 0 !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/*Navigation Bar*/
 
 nav {
   color: #616161;
@@ -26,4 +35,25 @@ nav a:hover {
 
 nav img {
   height: 28px;
+}
+
+/*Page Content*/
+
+.container-fluid {
+  padding: 0;
+}
+
+#one {
+  background-color: lavender;
+  height: 100vh;
+}
+
+#two {
+  background-color: aliceblue;
+  height: 50vh;
+}
+
+#three {
+  background-color: beige;
+  height: 50vh;
 }
