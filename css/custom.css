@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0 !important;
 }
 
 body {
@@ -17,6 +16,8 @@ nav {
   font-weight: 300;
   background-color: #FFF !important;
   border: 0 !important;
+  margin: 0 !important;
+  padding: 0.5em;
 }
 
 nav ul {
@@ -35,25 +36,20 @@ nav a:hover {
 
 nav img {
   height: 28px;
+  margin-left: 1em;
 }
 
 /*Page Content*/
 
-.container-fluid {
+.container-fluid, .col-sm-8, .col-sm-4 {
   padding: 0;
 }
 
-#one {
-  background-color: lavender;
-  height: 100vh;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-#two {
-  background-color: aliceblue;
-  height: 50vh;
-}
-
-#three {
-  background-color: beige;
-  height: 50vh;
+.equal-height, .row {
+  margin: 0 !important;
 }
