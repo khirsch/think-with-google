@@ -41,7 +41,7 @@ nav img {
 
 /*Page Content*/
 
-.container-fluid, .col-sm-8, .col-sm-4 {
+.container-fluid, .col {
   padding: 0;
 }
 
